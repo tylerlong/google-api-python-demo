@@ -3,7 +3,7 @@
 
 ## Setup
 
-Save your service account credentials into `keyfile.json` in the current directory.
+Save your service account credentials into `key.json` in the current directory.
 
 
 ## Run

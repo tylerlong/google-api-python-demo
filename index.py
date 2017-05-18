@@ -2,7 +2,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 scopes = ['https://www.googleapis.com/auth/androidpublisher']
 
-credentials = ServiceAccountCredentials.from_json_keyfile_name('./keyfile.json', scopes=scopes)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('./key.json', scopes=scopes)
 
 from httplib2 import Http
 
